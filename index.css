@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+Body {
+  margin: 0;
+  background-color: white;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+/*intro section*/
+.intro{
+  text-align: center;
+  padding-top: 7%;
+  background-color: #f23f57;
+}
+
+.header-caption{
+  font-size: 2em;
+  color: white;
+  margin: 0 auto;
+}
+
+/*type writer effect*/
+
+
+.header-caption {
+  border-right: solid 3px rgba(0,255,0,.75);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: rgba(255,255,255,.70);
+}
+
+.skills-hobbies{
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* Animation */
+.header-caption {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 900ms steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 375px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgb(255,255,255);}
+  to{border-right-color: transparent;}
+}
+
+.header-details{
+  font-size: 1.2em;
+  max-width: auto;
+  padding: 1rem;
+ font-weight: bold;
+ padding-bottom: 50px;
+}
+
+.caption{
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
+.caption:hover{
+  color:white;
+  transform: scale(1.5);
+}
+
+.panel{
+  float: left;
+  width:50%;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.skill{
+  line-height: 2px;
+  letter-spacing: 1px;
+}
+
+.skill-section{
+  color: #f23f57;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 150px auto 100px auto;
+  text-align: left;
+}
+
+.profile-pic{
+  width: 25%;
+  background-color:#f23f57;
+  color: #f23f57;
+  margin: auto;
+}
+
+.hobbie-image {
+  width: 25%;
+  float: right;
+  margin: auto 0px auto 30px;
+}
+.programming-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.bottom-container {
+  background-color:  #f23f57;
+  padding: 50px 0 20px;
+  text-align: center;
+}
+.copyright {
+  color: #e4f9f5;
+  font-size: 0.7rem;
+  padding: 20px 0;
+}
+
+.footer-link{
+  text-decoration: none;
+  padding: 15px;
+  color: black;
+}
+
+.footer-link:hover{
+  color: white;
+}
