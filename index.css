@@ -49,6 +49,8 @@ Body {
   .profile-pic{
     width: 100%;
   }
+  margin: auto;
+  padding: auto;
 }
 
 .skills-hobbies{
