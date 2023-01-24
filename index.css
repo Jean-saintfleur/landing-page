@@ -33,6 +33,24 @@ Body {
   color: rgba(255,255,255,.70);
 }
 
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .profile-pic {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .profile-pic{
+    width: 100%;
+  }
+}
+
 .skills-hobbies{
   text-align: center;
   padding-top: 30px;
