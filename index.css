@@ -44,7 +44,7 @@ Body {
   }
 }
 
-@media only screen and (max-width:500px) {
+/* @media only screen and (max-width:500px) {
   /* For mobile phones: */
   .profile-pic{
     width: 50%;
@@ -52,7 +52,7 @@ Body {
   }
   margin: auto;
   padding: auto;
-}
+} */
 
 .skills-hobbies{
   text-align: center;
@@ -122,6 +122,7 @@ Body {
 
 .profile-pic{
   width: 25%;
+  height: auto;
   margin: 0 auto;
 }
 
