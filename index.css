@@ -44,15 +44,15 @@ Body {
   }
 }
 
-/* @media only screen and (max-width:500px) {
-  /* For mobile phones: */
+ @media only screen and (max-width:500px) {
+    For mobile phones:
   .profile-pic{
     width: 50%;
     margin: auto;
   }
   margin: auto;
   padding: auto;
-} */
+} 
 
 .skills-hobbies{
   text-align: center;
