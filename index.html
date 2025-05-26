@@ -1,19 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="index.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-	<title>Jean Saintfleur</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Porfolio</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="mediaquerries.css">
 </head>
 <body>
+   <nav id="desktop-nav">
+      <div class="logo">Jean Saintfleur</div>
+      <div>
+         <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experince">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+         </ul>
+      </div>
 
- <div>
-  <h1>Under Construction</h1>
-  <h2>More exciting contents coming soon!</h2>
- </div>
-
+   </nav>
+   <nav id="hamburger-nav ">
+      <div class="logo">Jean Saintfleur</div>
+      <div class="hamburger-menu">
+         <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+         <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experince" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+         </ul>
+         </div>
+      </div>
+   </nav>
+   
+   <script src="script.js"></script>
+</body>
 </html>
